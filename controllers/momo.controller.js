@@ -217,7 +217,7 @@ const balanceCheck = async (req, res) => {
     });
 
     // TODO: Implement balance check logic
-    res.status(501).json({
+    res.status(200).json({
       success: false,
       message: 'Balance check not implemented yet',
       timestamp: new Date().toISOString()
